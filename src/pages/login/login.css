@@ -1,0 +1,74 @@
+.login {
+    height: calc(100vh - 50px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(rgba(255, 255, 255, 0.5),
+            rgba(255, 255, 255, 0.5)), url("../../../public/assests/loginCover.webp");
+    background-size: cover;
+}
+
+.loginTile {
+    font-size: 50px;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: bold;
+}
+
+.loginForm {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.loginForm>label {
+    margin: 10px 0;
+    font-family: 'Varela Round', sans-serif;
+
+}
+
+.loginInput {
+    padding: 10px;
+    background-color: white;
+    border: none;
+    font-family: 'Varela', sans-serif;
+    width: 300px;
+    box-shadow: 0 0 5px white;
+}
+.loginInput:focus{
+    outline: none;
+    box-shadow: 0 0 5px black;
+}
+
+.loginButton{
+    margin-top: 20px;
+    cursor: pointer;
+    background-color: lightcoral;
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px black;
+}
+
+.loginRegisterButton{
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    background-color: teal;
+    cursor: pointer;
+    border: none;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    width: 120px;
+    font-family: 'Varela Round', sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    box-shadow: 0 0 5px black;
+}
